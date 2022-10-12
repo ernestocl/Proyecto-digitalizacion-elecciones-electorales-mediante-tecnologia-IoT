@@ -1,0 +1,50 @@
+
+#Listado de comandos útiles para usar desde la terminal para consultar la BD
+
+#entrar
+sudo mysql -u root -p
+
+#listar bases de datos
+SHOW DATABASES;
+
+#crear base de datos
+CREATE DATABASE nombre_base_de_datos;
+
+#borrar base de datos
+DROP DATABASE nombre_base_de_datos;
+
+#seleccionar base de datos
+USE nombre_base_de_datos;
+
+#mostrar tablas
+SHOW TABLES;
+
+#crear tabla
+CREATE TABLE votantes (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+nombre VARCHAR(20),
+apellido1 VARCHAR(20),
+apellido2 VARCHAR(20),
+sexo CHAR(1));
+
+#borrar tabla
+DROP TABLE votantes;
+
+#mostrar información tabla
+DESCRIBE tabla;
+
+#insertar 1 fila
+INSERT INTO `votantes` (`id`,`nombre`,`apellido1`,`apellido2`,`sexo`) VALUES (NULL, "David", "Apellido1", "Apellido2", "H");
+
+#mostrar tabla
+SELECT * FROM votantes;
+
+#añadir columna
+ALTER TABLE votantes ADD email VARCHAR(40);
+
+#añadir columna especificando posición
+ALTER TABLE votantes ADD email VARCHAR(40) AFTER apellido1;
+
+#eliminar columna
+ALTER TABLE votante DROP email;
+
+

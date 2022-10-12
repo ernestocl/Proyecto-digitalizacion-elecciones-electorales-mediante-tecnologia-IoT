@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>190</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;I40Component&gt;&gt;
+Component
+halign=center
+valign=top
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height)
+drawLine(width,8,width,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(0,height,10,height)
+drawLine(width-10,height,width,height)
+
+drawLine(15,40,width-15,40)
+drawLine(10,45,10,height)
+drawLine(width-10,45,width-10,height)
+drawLine(10,45,15,40)
+drawLine(width-15,40,width-10,45)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>60</x>
+      <y>80</y>
+      <w>150</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Asset
+halign=center
+valign=top
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height)
+drawLine(width,8,width,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(0,height,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>230</y>
+      <w>80</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Process
+class
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+drawLine(10,5,width-10,5)
+drawLine(5,10,5,height-10)
+drawLine(width-5,10,width-5,height-10)
+drawLine(10,height-5,width-10,height-5)
+drawLine(5,10,10,5)
+drawLine(width-10,5,width-5,10)
+drawLine(width-5,height-10,width-10,height-5)
+drawLine(10,height-5,5,height-10)
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>400</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>State
+halign=center
+valign=center
+customelement=
+drawArc(0,0,width/10,height,90,180,true)
+drawArc(width-width/10,0,width/10,height,-90,180,true)
+drawLine(width/20,0,width-width/20,0)
+drawLine(width/20,height,width-width/20,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>350</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Start
+halign=center
+valign=center
+customelement=
+drawArc(0,0,30,height,90,180,true)
+drawArc(width-30,0,30,height,-90,180,true)
+drawLine(15,0,width-15,0)
+drawLine(15,height,width-15,height)
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>520</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=actclass
+Procedure
+Call
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>60</x>
+      <y>700</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>20</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+channelName 
+m1=[message]
+		</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>60</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+channelName 
+m1=[message 1a,\nmessage1b]
+m2=[message 2a\nmessage2b]
+
+		</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>120</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Process
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>30</x>
+      <y>290</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Note..
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>140</x>
+      <y>290</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=.
+Note..
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>140</x>
+      <y>120</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Process
+lt=.
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>140</x>
+      <y>230</y>
+      <w>80</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Process
+class
+lt=.
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+
+drawLine(10,5,width-10,5)
+drawLine(5,10,5,height-10)
+drawLine(width-5,10,width-5,height-10)
+drawLine(10,height-5,width-10,height-5)
+drawLine(5,10,10,5)
+drawLine(width-10,5,width-5,10)
+drawLine(width-5,height-10,width-10,height-5)
+drawLine(10,height-5,5,height-10)
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>350</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Start
+halign=center
+valign=center
+customelement=
+drawArc(0,0,30,height,90,180,true)
+drawArc(width-30,0,30,height,-90,180,true)
+drawLine(15,0,width-15,0)
+drawLine(15,height,width-15,height)
+drawLine(15,0,15, height)
+drawLine(width-15,0,width-15, height)
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>90</x>
+      <y>700</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=flow_final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>140</x>
+      <y>690</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>30</x>
+      <y>700</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,height,width,height)
+drawLine(0,0,width,height)
+drawLine(0,height,width,0)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>120</x>
+      <y>700</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>customelement=
+drawCircle(width/4,height/4, width/4)
+bg=black
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>30</x>
+      <y>580</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Send
+signal
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width-18,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,height/2,width-18,0)
+drawLine(width,height/2,width-18,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>170</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Procedure
+halign=center
+valign=center
+customelement=
+drawLine(8,0,width-8,0)
+drawLine(0,8,0,height-8)
+drawLine(width,8,width,height-8)
+drawLine(8,height,width-8,height)
+drawLine(0,8,8,0)
+drawLine(width-8,0,width,8)
+drawLine(width,height-8,width-8,height)
+drawLine(8,height,0,height-8)
+drawLine(8,0,8,height)
+drawLine(width-8,0,width-8,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>460</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Comment
+halign=left
+valign=top
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>520</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Comment
+lt=.
+halign=left
+valign=top
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>580</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Block
+halign=left
+valign=top
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width,0,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>40</x>
+      <y>460</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Messages
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width,0,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>130</x>
+      <y>170</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>     Comments
+halign=left
+valign=top
+customelement=
+drawLine(18,0,width,0)
+drawLine(18,0,0,height)
+drawLine(0,height,width-18,height)
+drawLine(width,0,width-18,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>640</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Task
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,5,width,5)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(0,height-5,width,height-5)
+drawLine(width,0,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>150</x>
+      <y>400</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>messages
+halign=center
+valign=center
+customelement=
+drawLine(0,0,10,0)
+drawLine(width-10,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,10,height)
+drawLine(width-10,height,width,height)
+drawLine(width,0,width,height)
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>30</x>
+      <y>640</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Receive
+signal
+halign=center
+valign=center
+customelement=
+drawLine(0,0,width,0)
+drawLine(0,0,0,height)
+drawLine(0,height,width,height)
+drawLine(width-18,height/2,width,0)
+drawLine(width-18,height/2,width,height)
+
+
+		</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
